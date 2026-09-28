@@ -1,0 +1,51 @@
+{
+  "total_rows": 235854,
+  "conditions": 23,
+  "motors": 6,
+  "failure_rate": 0.07234560363614778,
+  "positive_rows": 17063,
+  "holdout_conditions": [
+    "20240503_163963",
+    "20240503_164435",
+    "20240503_164675",
+    "20240503_165189"
+  ],
+  "training_rows": 212310,
+  "test_rows": 23544,
+  "models": {
+    "Logistic Regression": {
+      "ROC_AUC": 0.7043736404208325,
+      "Average_Precision": 0.06772112416735637,
+      "Precision_at_0.5": 0.0,
+      "Recall_at_0.5": 0.0,
+      "F1_at_0.5": 0.0,
+      "Confusion_Matrix": [
+        [
+          21183,
+          1322
+        ],
+        [
+          1039,
+          0
+        ]
+      ]
+    },
+    "Random Forest": {
+      "ROC_AUC": 0.833286860218636,
+      "Average_Precision": 0.13463367193588766,
+      "Precision_at_0.5": 0.0,
+      "Recall_at_0.5": 0.0,
+      "F1_at_0.5": 0.0,
+      "Confusion_Matrix": [
+        [
+          22505,
+          0
+        ],
+        [
+          1039,
+          0
+        ]
+      ]
+    }
+  }
+}
